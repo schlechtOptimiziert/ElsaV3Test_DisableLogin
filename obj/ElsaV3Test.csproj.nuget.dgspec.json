@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vanhaller\\Downloads\\ElsaV3Test_DisableLogin\\ElsaV3Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vanhaller\\Downloads\\ElsaV3Test_DisableLogin\\ElsaV3Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vanhaller\\Downloads\\ElsaV3Test_DisableLogin\\ElsaV3Test.csproj",
+        "projectName": "ElsaV3Test",
+        "projectPath": "C:\\Users\\vanhaller\\Downloads\\ElsaV3Test_DisableLogin\\ElsaV3Test.csproj",
+        "packagesPath": "C:\\Users\\vanhaller\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vanhaller\\Downloads\\ElsaV3Test_DisableLogin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vanhaller\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs01/tfs/DefaultCollection/_packaging/fastec4pro/nuget/v3/index.json": {},
+          "https://tfs01/tfs/DefaultCollection/_packaging/projects-libraries/nuget/v3/index.json": {},
+          "https://tfs01/tfs/DefaultCollection/_packaging/projects/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Elsa": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Elsa.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Elsa.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Elsa.Http": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Elsa.Identity": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Elsa.Workflows.Api": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Elsa.Workflows.Designer": {
+              "target": "Package",
+              "version": "[3.0.0-rc1, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
